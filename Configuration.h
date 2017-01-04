@@ -45,16 +45,17 @@
 #define YAW_WMAX  30
 
 //-------IMU Config-----------
-//#define ADDR_SLAVE_I2C 0x68
-//#define PACKET_SIZE 42
+#define ADDR_SLAVE_I2C 0x68
+#define PACKET_SIZE 6
 
 //-------Debug Config---------
 #define DEBUG_OUTPUT
-#define DEBUG_ANGLES
-#define DEBUG_PID
-#define DEBUG_RX
-#define DEBUG_MOTORS
-#define DEBUG_LOOP_TIME
+//#define DEBUG_ANGLES
+//#define DEBUG_PID
+//#define DEBUG_RX
+//#define DEBUG_MOTORS
+//#define DEBUG_LOOP_TIME
+#define DEBUG_YAWPITCHROLL
 //----------------------------
 
 //-------Motor PWM Levels

@@ -1,7 +1,7 @@
 /* 
  *  Changelog (in reverse order, current first)
  *  
- *  2017-01-04 f41ardu - start Hildricopter 
+ *  2017-01-04 f41ardu - start Hildricopter and rebuild MPU6050 (direct MPU access)
  *  
  *  2017-01-03 f41ardu - replaced angelX,Y,Z using an array ypr to store YAW,PITCH and ROLL angels.
  *  
